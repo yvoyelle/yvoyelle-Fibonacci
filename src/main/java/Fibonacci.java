@@ -20,20 +20,7 @@ public class Fibonacci {
      * @return the nth number of fibonacci sequence.
      */
     public int fib(int n) {
-        int rs_1 = 0;
-        int rs_2=0;
 
-        for (int i = 0; i < n; i--) {
-
-
-            rs_1 = (n - 1);
-            rs_2 = rs_1 -2;
-            if (n==1){
-                return n;
-            }
-
-
-        }
-        return rs_1+rs_2;
-    }
-}
+        Return Fibonacci (n-1) + (n-2);
+       
+}}
